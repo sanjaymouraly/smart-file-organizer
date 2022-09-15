@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "storage_dir": null,
+  "include_hidden": false,
+  "excluded_dirs": [
+    ".git",
+    ".venv",
+    "venv",
+    "__pycache__",
+    "node_modules",
+    ".smart-organizer",
+    ".smart-organizer-quarantine"
+  ],
+  "excluded_patterns": [],
+  "destination_name": "Organized",
+  "destination_layout": "{category}",
+  "filename_template": "{name}",
+  "signature_validation": true,
+  "hash_chunk_size": 1048576,
+  "extensions": {
+    "Documents": [".doc", ".docx", ".md", ".odt", ".pdf", ".rtf", ".txt"],
+    "Spreadsheets": [".csv", ".ods", ".xls", ".xlsx"],
+    "Images": [".bmp", ".gif", ".heic", ".jpg", ".jpeg", ".png", ".tif", ".tiff", ".webp"],
+    "Presentations": [".odp", ".ppt", ".pptx"],
+    "Archives": [".7z", ".bz2", ".gz", ".rar", ".tar", ".tgz", ".xz", ".zip"],
+    "Videos": [".avi", ".m4v", ".mkv", ".mov", ".mp4", ".webm", ".wmv"],
+    "Audio": [".aac", ".flac", ".m4a", ".mp3", ".ogg", ".opus", ".wav"],
+    "Code": [".c", ".cpp", ".css", ".go", ".html", ".java", ".js", ".json", ".py", ".rs", ".sh", ".toml", ".ts", ".xml", ".yaml", ".yml"]
+  }
+}

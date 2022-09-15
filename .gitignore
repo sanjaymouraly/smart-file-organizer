@@ -1,0 +1,47 @@
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Test, coverage, and lint output
+.pytest_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.whl
+
+# Editor / OS metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local user data and synthetic practice output
+smart-organizer-demo/
+*.log
+
+# Application state (manifests, quarantine) and exported reports
+.smart-organizer/
+.smart-organizer-quarantine/
+manifests/
+quarantine/
+*.manifest.json
+scan-report.*
+duplicates-report.*
+operation-report.*
+report.html
+report.json
+report.csv
+
+# Personal/user configuration that must never be committed
+config.local.json
+preferences.local.json
